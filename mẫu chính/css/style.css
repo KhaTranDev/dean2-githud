@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 100%;
+     margin-bottom: 0px;
+}
+.row{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.mb{
+    margin-bottom: 0px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.mr a{
+    margin-right: 2%;
+    color: red;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    font-family: monospace;
+    background-color:rgb(214, 85, 85);
+    border:  5px  ;
+    font-size: 2vw;
+    color:  rgb(90, 105, 54) ;
+    border-radius: 2px;
+}
+.footer{
+    background-color:black;
+    
+    font-size: 1vw;
+    color:white;
+    border-radius: 2px;
+    padding: 10px;
+}
+.header h1{
+    margin:  20px;
+    font-size: 2vw;
+}
+/* Menu*/
+.menu{
+    background-color:rgb(7, 6, 6);
+    border: 0px solid ;
+    color: rgb(10, 10, 10);
+    border-radius: 0px ;
+}
+.menu ul{
+    padding: 1px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px;
+}
+.menu ul li a{
+    color: #ebe2e2;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: rgb(214, 85, 85);
+    font-size: 1vw;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #EEE ;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border: 1px #CCC solid;
+
+}
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxfooter{
+    padding:10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+
+}
+.boxcontent2 {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    background-color: #eee;
+}   
+.banner{
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.banner.img{
+    height: 100px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300%;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp.img{
+    min-height: 200px;
+    text-align: center;
+}
+.img img{
+    height:220px;
+    text-align: center;
+}
+/* BOX tài khoản*/
+.fromtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.fromcontent input[type="text"]
+{
+    width:100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius:  10px;
+}
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius:  5px;
+}
+
+.formtaikhoan input[type="submit"],
+.fromcontent input[type="submit"],
+.fromcontent input[type="reset"],
+.fromcontent input[type="button"]{
+    border-radius:  5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.fromcontent input[type="submit"]:hover,
+.fromcontent input[type="reset"]:hover,
+.fromcontent input[type="button"]:hover{  
+    background-color:  #CCC ;
+}
+
+.formtaikhoan li a{
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s
+    ;
+}
+.formtaikhoan li a:hover{
+    color:#590  ;
+    text-decoration: underline;
+}
+
+/* menu dọc*/
+.menudoc ul{
+    margin:0;
+    list-style-type: none;
+    padding: 0;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.top5 img{
+    width: 12%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+
+
+}
+.top5 a{
+    color: #666;
+    text-decoration: none;
+}
+.top5 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* Giá sp*/
+.box-p{
+font: 14px/18px Arial,Helvetica,sans-serif;
+-webkit-tap-highlight-color: transparent;
+user-select: none;
+color: #288ad6;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+margin-top: 8px;
+}
+.price-old-black{
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+    display: inline-block;
+    text-decoration-line: line-through;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+}
+.percent{
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #444;
+    font-size: 13px;
+    line-height: 17px;
+}
+.price{  
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #e83a45;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* Admin*/
+.headeradmin{
+    background-color:#b8b6b6;
+    border:  1px 090 solid ;
+    padding: 0px 20px;
+    color: #666;
+    border-radius: 5px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.fromtitle{
+    background-color:#b8b6b6;
+    border:  1px 090 solid ;
+    padding: 0px 20px;
+    color: #666;
+    border-radius: 5px;
+}
+.fromcontent{
+    padding: 20px 0px;
+}
+/*DS_Loại hàng*/
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+.formdsloai table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: teal;
+}
+.formdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: tomato;
+}
+.formdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: teal;
+}
+
+.formdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: tomato;
+}
+.formdsloai table td{
+    padding: 10px 20px;
+    border: 1px #999 solid;
+}
+* {box-sizing:border-box}
+
